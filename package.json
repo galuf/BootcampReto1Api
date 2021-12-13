@@ -1,0 +1,31 @@
+{
+  "name": "reto1-api",
+  "version": "1.0.0",
+  "description": "\"Reto 1 BootcampKrowdy ScrapingProfiles\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "APPLICATION=restify nodemon --watch 'src/**/*.ts' --exec node -r @swc/register -r dotenv/config index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/cli": "0.1.27",
+    "@swc/core": "1.2.40",
+    "@swc/core-linux": "1.2.40",
+    "@swc/core-linux-musl": "1.2.40",
+    "@swc/register": "^0.1.7",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "eslint": "^8.4.1",
+    "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.1.1",
+    "morgan": "^1.10.0",
+    "restify": "^8.6.0",
+    "restify-cors-middleware2": "^2.1.2",
+    "restify-errors": "^8.0.2",
+    "restify-router": "^0.6.2"
+  }
+}
